@@ -1,0 +1,52 @@
+/*Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@400..900&display=swap");
+* {
+  /*font-family: "Big Shoulders Text", sans-serif;*/
+  font-family: "Big Shoulders Text", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  text-decoration: none;
+  list-style: none;
+}
+/*Some Variable */
+:root {
+  --main-color: #273fa1;
+  --text-color: #000;
+  --bg-color: #fff;
+  --container-color: #1e1e2a;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  padding: 20px;
+}
+
+.about-content {
+  max-width: 800px;
+  text-align: center;
+  background: var(--main-color);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: var(--text-color);
+}
+
+.about-content h1 {
+  font-size: 3.2rem;
+  margin-bottom: 20px;
+  color: var(--bg-color);
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: var(--bg-color);
+  margin-bottom: 15px;
+}
